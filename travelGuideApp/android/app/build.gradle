@@ -84,6 +84,16 @@ project.ext.react = [
 
 apply from: "../../node_modules/react-native/react.gradle"
 
+//for vector icons
+ apply from:"../../node_modules/react-native-vector-icons/fonts.gradle"
+
+project.ext.vectoricons = [
+    iconFontNames: [ 'MaterialCommunityIcons.ttf' ] 
+]
+
+//for firebase database
+apply plugin: 'com.google.gms.google-services'
+
 /**
  * Set this to true to create two separate APKs instead of one:
  *   - An APK that only works on ARM devices

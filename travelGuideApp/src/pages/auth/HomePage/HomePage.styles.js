@@ -3,7 +3,7 @@ import { StyleSheet,Dimensions } from "react-native";
 export default StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:'#737373'
+        backgroundColor:'white'
     },
     image:{
         width:Dimensions.get('screen').width/1,
@@ -21,7 +21,7 @@ export default StyleSheet.create({
         padding:18,
         backgroundColor:'white',
         marginBottom:5,
-        borderColor:'#737373',
+        borderColor:'#ffd633',
         marginTop:20,
         flexDirection:'row'
     },
@@ -32,15 +32,15 @@ export default StyleSheet.create({
         padding:18,
         backgroundColor:'white',
         marginBottom:5,
-        borderColor:'#737373',
+        borderColor:'#ffd633',
         flexDirection:'row'
     },
     sign_in:{
         borderWidth:2,
         borderRadius:50,
         padding:10,
-        backgroundColor:'#b3e6ff',
-        borderColor:'#737373',
+        backgroundColor:'#ffd633',
+        borderColor:'#ffd633',
         marginTop:20,
         marginLeft:50,
         marginRight:50
@@ -54,28 +54,28 @@ export default StyleSheet.create({
     google_text:{
         fontSize:20,
         fontWeight:'bold',
-        color:'black',
+        color:'#737373',
         marginLeft:25,
         marginTop:5
     },
     facebook_text:{
         fontSize:20,
         fontWeight:'bold',
-        color:'black',
+        color:'#737373',
         alignSelf:'center',
         marginLeft:25
     },
     sign_in_text:{
         fontSize:25,
         fontWeight:'bold',
-        color:'#4d4d4d',
+        color:'white',
         alignSelf:'center'
     },
     question_text:{
         fontSize:18,
         fontWeight:'bold',
         alignSelf:'center',
-        color:'#e6e6e6'
+        color:'white'
     },
     login_text:{
         fontSize:25,

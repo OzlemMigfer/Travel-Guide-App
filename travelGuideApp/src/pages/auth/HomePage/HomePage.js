@@ -4,10 +4,11 @@ import styles from './HomePage.styles';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
 
 
-const HomePage = () => {
+const HomePage = ({navigation}) => {
     return(
         <View style={styles.container}>
             <Image style={styles.image} source={require('../../../components/assets/logo_transparent.png')} />
+            <Text style={styles.header}>Travel Guide App</Text>
             <View style={styles.body_container}>
                 <TouchableOpacity style={styles.google}>
                     <Icon name="google" size={35} />
@@ -17,7 +18,7 @@ const HomePage = () => {
                     <Icon name="facebook" size={40} />
                     <Text style={styles.facebook_text}>Facebook İle Kayıt Ol</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.sign_in}>
+                <TouchableOpacity style={styles.sign_in} onPress={() => navigation.navigate('SignIn') }>
                     <Text style={styles.sign_in_text}>Kayıt Ol</Text>
                 </TouchableOpacity>
             </View>

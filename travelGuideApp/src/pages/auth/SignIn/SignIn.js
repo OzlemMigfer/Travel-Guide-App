@@ -1,10 +1,11 @@
 import React from "react";
 import {Text, View} from 'react-native';
+import styles from './SignIn.styles';
 
 const SignIn = () => {
     return(
-        <View>
-            <Text>Sign In Page</Text>
+        <View style={styles.container}>
+            <Text style={styles.header}>Kayıt Ekranı</Text>
         </View>
     );
 };

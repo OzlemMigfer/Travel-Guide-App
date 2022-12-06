@@ -20,6 +20,7 @@ function App(){
           <Stack.Screen 
                 name="SignIn" 
                 component={SignIn} 
+                options={{ headerShown:false }}
            />
       </Stack.Navigator>
     </NavigationContainer>

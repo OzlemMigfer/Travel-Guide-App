@@ -7,7 +7,15 @@ export default StyleSheet.create({
     },
     image:{
         width:Dimensions.get('screen').width/1,
-        height:Dimensions.get('screen').height/3.2
+        height:Dimensions.get('screen').height/3.7,
+        marginTop:10
+    },
+    header:{
+        fontFamily:'ZenDots-Regular',
+        fontSize:25,
+        alignSelf:'center',
+        marginBottom:25,
+        marginTop:-30
     },
     body_container:{
         justifyContent:'center',
@@ -75,12 +83,12 @@ export default StyleSheet.create({
         fontSize:18,
         fontWeight:'bold',
         alignSelf:'center',
-        color:'white'
+        color:'#737373',
     },
     login_text:{
         fontSize:25,
         fontWeight:'bold',
         color:'#e6e600',
-        alignSelf:'center'
+        alignSelf:'center',
     }
 });

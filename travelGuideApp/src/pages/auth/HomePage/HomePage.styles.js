@@ -12,10 +12,11 @@ export default StyleSheet.create({
     },
     header:{
         fontFamily:'ZenDots-Regular',
-        fontSize:25,
+        fontSize:30,
         alignSelf:'center',
         marginBottom:25,
-        marginTop:-30
+        marginTop:-30,
+        fontWeight:'bold'
     },
     body_container:{
         justifyContent:'center',

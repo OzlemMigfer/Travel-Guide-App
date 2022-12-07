@@ -94,6 +94,7 @@ project.ext.vectoricons = [
 //for firebase database
 apply plugin: 'com.google.gms.google-services'
 
+
 /**
  * Set this to true to create two separate APKs instead of one:
  *   - An APK that only works on ARM devices
